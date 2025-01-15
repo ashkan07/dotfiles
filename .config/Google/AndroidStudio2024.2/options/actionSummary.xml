@@ -1,0 +1,28 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1736681854324" />
+    </e>
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1736681763701" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="7" l="1736681831448" />
+    </e>
+    <e n="WelcomeScreen.RunDeviceManager2">
+      <i c="4" l="1736681994415" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeleteAction">
+      <i c="1" l="1736681812058" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
+      <i c="1" l="1736681815047" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.EditDeviceAction">
+      <i c="1" l="1736681803716" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1736681761214" />
+    </e>
+  </component>
+</application>

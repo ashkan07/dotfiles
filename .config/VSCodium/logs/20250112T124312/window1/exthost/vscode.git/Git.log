@@ -1,0 +1,99 @@
+2025-01-12 12:43:18.206 [info] [main] Log level: Info
+2025-01-12 12:43:18.206 [info] [main] Validating found git in: "git"
+2025-01-12 12:43:18.206 [info] [main] Using git "2.48.0" from "git"
+2025-01-12 12:43:18.206 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-12 12:43:18.210 [info] > git rev-parse --show-toplevel [7ms]
+2025-01-12 12:43:18.229 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:18.241 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:18.252 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:18.265 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:18.276 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:18.278 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-01-12 12:43:22.098 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-12 12:43:22.106 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-01-12 12:43:22.115 [info] [Model][openRepository] Opened repository: /home/ashkan/Documents/weeliifeefii59
+2025-01-12 12:43:22.125 [info] > git config --get commit.template [2ms]
+2025-01-12 12:43:22.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-01-12 12:43:22.148 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:43:22.149 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-12 12:43:22.168 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-12 12:43:22.173 [info] > git status -z -uall [16ms]
+2025-01-12 12:43:22.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-01-12 12:43:22.207 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2025-01-12 12:43:22.207 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-12 12:43:22.215 [info] > git config --get commit.template [20ms]
+2025-01-12 12:43:22.230 [info] > git reflog main --grep-reflog=branch: Created from *. [15ms]
+2025-01-12 12:43:22.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-12 12:43:22.246 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:43:22.247 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2025-01-12 12:43:22.258 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-01-12 12:43:22.275 [info] > git status -z -uall [10ms]
+2025-01-12 12:43:22.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2025-01-12 12:43:22.285 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-01-12 12:43:22.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-12 12:43:22.305 [info] > git config --local branch.main.vscode-merge-base origin/main [21ms]
+2025-01-12 12:43:22.317 [info] > git config --local branch.main.vscode-merge-base [11ms]
+2025-01-12 12:43:22.326 [info] > git config --get commit.template [9ms]
+2025-01-12 12:43:22.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-01-12 12:43:22.354 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2025-01-12 12:43:22.366 [info] > git diff --name-status -z --diff-filter=ADMR cc84b737297394bf49688ed09b72e3a12a535b7c...refs/remotes/origin/main [3ms]
+2025-01-12 12:43:22.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-01-12 12:43:22.373 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:43:22.375 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-01-12 12:43:22.392 [info] > git status -z -uall [10ms]
+2025-01-12 12:43:22.393 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-12 12:43:22.647 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-12 12:43:22.906 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:36.912 [info] [main] Log level: Info
+2025-01-12 12:43:36.912 [info] [main] Validating found git in: "git"
+2025-01-12 12:43:36.912 [info] [main] Using git "2.48.0" from "git"
+2025-01-12 12:43:36.912 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-12 12:43:36.912 [info] > git rev-parse --show-toplevel [11ms]
+2025-01-12 12:43:36.913 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-01-12 12:43:36.936 [info] [Model][openRepository] Opened repository: /home/ashkan/Documents/weeliifeefii59
+2025-01-12 12:43:36.961 [info] > git config --get commit.template [5ms]
+2025-01-12 12:43:37.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-12 12:43:37.037 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:43:37.049 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-01-12 12:43:37.073 [info] > git status -z -uall [13ms]
+2025-01-12 12:43:37.074 [info] > git rev-parse --show-toplevel [26ms]
+2025-01-12 12:43:37.085 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-01-12 12:43:37.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-01-12 12:43:37.136 [info] > git rev-parse --show-toplevel [53ms]
+2025-01-12 12:43:37.150 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2025-01-12 12:43:37.161 [info] > git config --get commit.template [44ms]
+2025-01-12 12:43:37.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-01-12 12:43:37.192 [info] > git rev-parse --show-toplevel [44ms]
+2025-01-12 12:43:37.213 [info] > git merge-base refs/heads/main refs/remotes/origin/main [39ms]
+2025-01-12 12:43:37.226 [info] > git rev-parse --show-toplevel [14ms]
+2025-01-12 12:43:37.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-01-12 12:43:37.246 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:43:37.247 [info] > git diff --name-status -z --diff-filter=ADMR cc84b737297394bf49688ed09b72e3a12a535b7c...refs/remotes/origin/main [23ms]
+2025-01-12 12:43:37.249 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-12 12:43:37.270 [info] > git rev-parse --show-toplevel [34ms]
+2025-01-12 12:43:37.281 [info] > git status -z -uall [22ms]
+2025-01-12 12:43:37.283 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:37.284 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-01-12 12:43:37.299 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:37.311 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:37.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:37.334 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-12 12:43:37.346 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-12 12:43:37.346 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-12 12:43:37.477 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-12 12:43:37.799 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:43:59.926 [info] > git config --get commit.template [16ms]
+2025-01-12 12:43:59.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-12 12:43:59.945 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:43:59.948 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-01-12 12:43:59.981 [info] > git status -z -uall [19ms]
+2025-01-12 12:43:59.984 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-12 12:44:00.502 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:45:43.480 [info] > git config --get commit.template [12ms]
+2025-01-12 12:45:43.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-12 12:45:43.497 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ashkan/Documents/weeliifeefii59/.git/refs/remotes/origin/main'
+2025-01-12 12:45:43.499 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-01-12 12:45:43.525 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-12 12:45:43.533 [info] > git status -z -uall [25ms]
+2025-01-12 12:45:44.052 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-12 12:47:04.698 [info] > git check-ignore -v -z --stdin [11ms]
