@@ -5,3 +5,4 @@ This repo contains the config files for my hyprland installation, in combination
 Extra installed programs:
 * ani-cli
 * cura-bin (Appimage)
+* VS-codium
